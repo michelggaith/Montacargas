@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Xilinx/montacargas/estimulos_isim_par.exe" -prj "C:/Xilinx/montacargas/estimulos_par.prj" "work.estimulos" "work.glbl" 

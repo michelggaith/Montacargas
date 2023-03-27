@@ -1,0 +1,28 @@
+Command line:
+   estimulos_isim_par.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  52553
+
+Thu Feb 18 20:02:05 2021
+
+
+ Elaboration Time: 1.4375 sec
+
+ Current Memory Usage: 5198.37 Meg
+
+ Total Signals          : 2022
+ Total Nets             : 1066
+ Total Signal Drivers   : 1085
+ Total Blocks           : 395
+ Total Primitive Blocks : 291
+ Total Processes        : 1347
+ Total Traceable Variables  : 970
+ Total Scalar Nets and Variables : 29923
+
+ Total Simulation Time: 1.57813 sec
+
+ Current Memory Usage: 5198.35 Meg
+
+Thu Feb 18 20:09:30 2021
+

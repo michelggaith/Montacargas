@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="montacargas.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="estimulos_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="estimulos_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="estimulos_isim_beh.wdb"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="estimulos_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="estimulos_isim_par.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="estimulos_par.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="estimulos_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="montacarga.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="montacarga.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="montacarga.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="montacarga.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="montacarga.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="montacarga.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="montacarga.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="montacarga.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="montacarga.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="montacarga.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="montacarga.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="montacarga.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="montacarga.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="montacarga.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="montacarga.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="montacarga.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="montacarga.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="montacarga.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="montacarga.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="montacarga.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="montacarga.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="montacarga.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="montacarga.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="montacarga_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="montacarga_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="montacarga_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="montacarga_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="montacarga_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="montacarga_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="montacarga_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="montacarga_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="montacarga_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="montacarga_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="montacarga_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="montacarga_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="montacarga_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="montacarga_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="montacarga_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/montacarga_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/montacarga_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/par/montacarga_timesim.v"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1613674043" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1613674043">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613674043" xil_pn:in_ck="-5838324437333002276" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1613674043">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="estimulos.v"/>
+      <outfile xil_pn:name="montacargas.v"/>
+      <outfile xil_pn:name="salidas.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1613674052" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1840458659130315900" xil_pn:start_ts="1613674052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613674052" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5670533577485681598" xil_pn:start_ts="1613674052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613674052" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5304516223362311200" xil_pn:start_ts="1613674052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613674052" xil_pn:in_ck="-5838324437333002276" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1613674052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="estimulos.v"/>
+      <outfile xil_pn:name="montacargas.v"/>
+      <outfile xil_pn:name="salidas.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1613674067" xil_pn:in_ck="-5838324437333002276" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2542354531117400697" xil_pn:start_ts="1613674052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="estimulos_beh.prj"/>
+      <outfile xil_pn:name="estimulos_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1613678243" xil_pn:in_ck="-2213283012832506476" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-9186527233719430788" xil_pn:start_ts="1613678242">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="estimulos_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1613672628" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1613672628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613672628" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7330491444211764234" xil_pn:start_ts="1613672628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613672628" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5304516223362311200" xil_pn:start_ts="1613672628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613672628" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1613672628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613672628" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="466364375809918004" xil_pn:start_ts="1613672628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613672628" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1613672628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613672628" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="93475065425570730" xil_pn:start_ts="1613672628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613676833" xil_pn:in_ck="-6751003012058281389" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="3462203674528402483" xil_pn:start_ts="1613676783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="montacarga.lso"/>
+      <outfile xil_pn:name="montacarga.ngc"/>
+      <outfile xil_pn:name="montacarga.ngr"/>
+      <outfile xil_pn:name="montacarga.prj"/>
+      <outfile xil_pn:name="montacarga.stx"/>
+      <outfile xil_pn:name="montacarga.syr"/>
+      <outfile xil_pn:name="montacarga.xst"/>
+      <outfile xil_pn:name="montacarga_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1613675240" xil_pn:in_ck="162138854071659" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767665317673832159" xil_pn:start_ts="1613675240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613676857" xil_pn:in_ck="-5932409047653283026" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8779419174518706397" xil_pn:start_ts="1613676833">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="montacarga.bld"/>
+      <outfile xil_pn:name="montacarga.ngd"/>
+      <outfile xil_pn:name="montacarga_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1613676871" xil_pn:in_ck="-5932362636168881073" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1613676857">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="montacarga.pcf"/>
+      <outfile xil_pn:name="montacarga_map.map"/>
+      <outfile xil_pn:name="montacarga_map.mrp"/>
+      <outfile xil_pn:name="montacarga_map.ncd"/>
+      <outfile xil_pn:name="montacarga_map.ngm"/>
+      <outfile xil_pn:name="montacarga_map.xrpt"/>
+      <outfile xil_pn:name="montacarga_summary.xml"/>
+      <outfile xil_pn:name="montacarga_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1613676914" xil_pn:in_ck="-9116295008402716280" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1613676871">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="montacarga.ncd"/>
+      <outfile xil_pn:name="montacarga.pad"/>
+      <outfile xil_pn:name="montacarga.par"/>
+      <outfile xil_pn:name="montacarga.ptwx"/>
+      <outfile xil_pn:name="montacarga.unroutes"/>
+      <outfile xil_pn:name="montacarga.xpi"/>
+      <outfile xil_pn:name="montacarga_pad.csv"/>
+      <outfile xil_pn:name="montacarga_pad.txt"/>
+      <outfile xil_pn:name="montacarga_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1613677824" xil_pn:in_ck="-7829747008136213024" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1613677803">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="montacarga.bgn"/>
+      <outfile xil_pn:name="montacarga.bit"/>
+      <outfile xil_pn:name="montacarga.drc"/>
+      <outfile xil_pn:name="montacarga.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1613677877" xil_pn:in_ck="-7829747008136225878" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="1890673188639090495" xil_pn:start_ts="1613677876">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1613678397" xil_pn:in_ck="-7829747008136213024" xil_pn:name="TRAN_postParSimModel" xil_pn:prop_ck="4849500958327500284" xil_pn:start_ts="1613678384">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/par/montacarga_timesim.nlf"/>
+      <outfile xil_pn:name="netgen/par/montacarga_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/montacarga_timesim.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1613678397" xil_pn:in_ck="1335030459023183588" xil_pn:name="TRAN_copyPost-ParAbstractToPreSimulation" xil_pn:start_ts="1613678397">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="estimulos.v"/>
+      <outfile xil_pn:name="netgen/par/montacarga_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/montacarga_timesim.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1613678415" xil_pn:in_ck="-7246499367924084381" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModelRunFuse" xil_pn:prop_ck="-3327571142439865703" xil_pn:start_ts="1613678397">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="estimulos_isim_par.exe"/>
+      <outfile xil_pn:name="estimulos_par.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1613689300" xil_pn:in_ck="-2213282994896637272" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModel" xil_pn:prop_ck="-6402277221715151203" xil_pn:start_ts="1613689297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="estimulos_isim_par.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1613676914" xil_pn:in_ck="-5938488952109938869" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1613676903">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="montacarga.twr"/>
+      <outfile xil_pn:name="montacarga.twx"/>
+    </transform>
+    <transform xil_pn:name="TRAN_createTimingConstraints">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

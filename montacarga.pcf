@@ -1,0 +1,34 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 18 16:34:28 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "display<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "led_puerta" LOCATE = SITE "P4" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "led_emergencia" LOCATE = SITE "N5" LEVEL 1;
+COMP "tr" LOCATE = SITE "K14" LEVEL 1;
+COMP "fc1" LOCATE = SITE "G12" LEVEL 1;
+COMP "fc2" LOCATE = SITE "C11" LEVEL 1;
+COMP "fc3" LOCATE = SITE "M4" LEVEL 1;
+COMP "fc4" LOCATE = SITE "A7" LEVEL 1;
+COMP "fc5" LOCATE = SITE "B2" LEVEL 1;
+COMP "salida<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "salida<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "selector<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "selector<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "selector<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "reset" LOCATE = SITE "N3" LEVEL 1;
+COMP "selector<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "puerta" LOCATE = SITE "F3" LEVEL 1;
+COMP "selector<4>" LOCATE = SITE "G3" LEVEL 1;
+COMP "emergencia" LOCATE = SITE "E2" LEVEL 1;
+COMP "display<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "display<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "display<5>" LOCATE = SITE "L13" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

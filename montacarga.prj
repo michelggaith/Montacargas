@@ -1,0 +1,3 @@
+verilog work "salidas.v"
+verilog work "display.v"
+verilog work "montacargas.v"

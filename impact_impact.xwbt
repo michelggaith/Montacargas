@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Xilinx\montacargas\impact.xsl
+OUTFILE=C:\Xilinx\montacargas\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=C:\Xilinx\montacargas
+LICENSE=iMPACT
+USER_INFO=iMPACT
