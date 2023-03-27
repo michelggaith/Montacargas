@@ -176,16 +176,12 @@ module estimulos;
 		#20;
 		puerta=1'b1;
 		
-		
 		#20;
 		selector=5'b00100;
 		
 		#20;
 		selector=5'b00000;
-		
-		
 		//----640ns-----
-		
 		
 	end
       
